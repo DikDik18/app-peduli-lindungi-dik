@@ -7,7 +7,7 @@ import {
   Text,
   StyleSheet,
 } from "react-native";
-import { L_peduli, kpc, kominfo, kemenkes, bumn } from "../../assets";
+import { L_peduli, kpcpen, kominfo, kemenkes, bumn } from "../../assets";
 
 export default SplashScreen = ({ navigation }) => {
   React.useEffect(() => {
@@ -31,7 +31,7 @@ export default SplashScreen = ({ navigation }) => {
       <Text style={styles.textFoother}>Bekerjasama Dengan :</Text>
 
       <View style={styles.content}>
-        <Image source={kpc} style={styles.logo1} />
+        <Image source={kpcpen} style={styles.logo1} />
         <Image source={kominfo} style={styles.logo2} />
         <Image source={kemenkes} style={styles.logo3} />
         <Image source={bumn} style={styles.logo4} />
