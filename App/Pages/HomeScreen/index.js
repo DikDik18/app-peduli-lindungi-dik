@@ -24,6 +24,8 @@ import {
   fasilitas,
   statistic,
   hospital,
+  eca,
+  termo,
 } from "../../assets";
 
 const windowHeight = Dimensions.get("window").height;
@@ -80,13 +82,13 @@ export default HomeScreen = ({ navigation }) => {
           <TouchableOpacity
             onPress={() => navigation.navigate("CovidTestScreen")}
           >
-            <Image source={covid} style={styles.gambar2} />
+            <Image source={termo} style={styles.gambar2} />
           </TouchableOpacity>
           <Text style={styles.tulisan}>Covid-19 Test Results</Text>
         </View>
         <View style={styles.column}>
           <TouchableOpacity onPress={() => navigation.navigate("Ehac")}>
-            <Image source={EMAC} style={styles.gambar2} />
+            <Image source={eca} style={styles.gambar2} />
           </TouchableOpacity>
           <Text style={styles.tulisan}>EHAC</Text>
         </View>

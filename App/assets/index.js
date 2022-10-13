@@ -13,7 +13,7 @@ import user from "./img/user.jpeg";
 import hand from "./img/ic_hand_qr.jpg";
 import vaksin from "./img/ic_vaccine_and_immuniazation.jpg";
 import L_covid from "./img/ic_covid_test_result.jpg";
-import ehc from "./img/ic_my_ehc.jpg";
+import eca from "./img/ic_ehac.jpg";
 import travel from "./img/ic_travel_regulation.jpg";
 import dokter from "./img/ic_telemedicine.jpg";
 import fasilitas from "./img/ic_healthcare_facility.jpg";
@@ -26,6 +26,7 @@ import covid from "./img/ic_covid.jpg";
 import bgehac from "./img/bg_ehac.jpg";
 import myehac from "./img/ic_my_ehc.jpg";
 import crtehac from "./img/ic_create_ehc.jpg";
+import termo from "./img/ic_covid_test_result.jpg";
 
 export {
   L_peduli,
@@ -42,7 +43,7 @@ export {
   hand,
   vaksin,
   L_covid,
-  ehc,
+  eca,
   travel,
   dokter,
   fasilitas,
@@ -55,4 +56,5 @@ export {
   bgehac,
   myehac,
   crtehac,
+  termo,
 };
