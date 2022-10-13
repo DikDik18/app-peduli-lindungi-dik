@@ -5,6 +5,7 @@ import {
   LoginScreen,
   HomeScreen,
   Vaksin,
+  CovidTest,
 } 
 from "./Pages";
 
@@ -32,6 +33,11 @@ export default Router = () => {
         name="Vaksin"
         component={Vaksin}
         options={{ headerShown: true, title:"Vaccine and Immunization" }}
+      />
+      <Stack.Screen
+        name="CovidTest"
+        component={CovidTest}
+        options={{ headerShown: true, title:"COVID - 19 Test Result" }}
       />
 
     </Stack.Navigator>

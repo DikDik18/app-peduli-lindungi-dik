@@ -1,9 +1,10 @@
 import * as React from "react";
 import { View, Text, StyleSheet, Image, Dimensions } from "react-native";
 import { empty } from "../../assets";
+
 const windowHeight = Dimensions.get("window").height;
 
-export default CovidTestScreen = ({ navigation }) => {
+export default CovidTest = ({ navigation }) => {
   return (
     <View style={styles.bgApp}>
       <View style={styles.imgContainer}>

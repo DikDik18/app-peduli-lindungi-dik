@@ -80,7 +80,7 @@ export default HomeScreen = ({ navigation }) => {
           </View>
           <View style={styles.column}>
             <TouchableOpacity
-              onPress={() => navigation.navigate("CovidTestScreen")}
+              onPress={() => navigation.navigate("CovidTest")}
             >
               <Image source={termo} style={styles.gambar2} />
             </TouchableOpacity>
