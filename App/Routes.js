@@ -31,7 +31,7 @@ export default Router = () => {
       <Stack.Screen
         name="Vaksin"
         component={Vaksin}
-        options={{ headerShown: false }}
+        options={{ headerShown: true, title:"Vaccine and Immunization" }}
       />
 
     </Stack.Navigator>
