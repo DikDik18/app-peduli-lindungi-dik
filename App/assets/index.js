@@ -1,4 +1,4 @@
-import L_peduli from "./img/logo-with-text 1.png";
+import L_peduli from "./img/logo-with-text1.png";
 import kpcpen from "./img/logo_kpcpen.png";
 import kominfo from "./img/logo_kominfo.png";
 import kemenkes from "./img/logo_kemenkes.png";

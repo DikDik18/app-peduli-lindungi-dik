@@ -2,7 +2,7 @@ import PrimaryButton from './MyButton'
 import {
     SelectDate,
     SelectGender
-} from './MySelect'
+} from './MySelect.js'
 
 export {
     PrimaryButton,
