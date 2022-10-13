@@ -4,6 +4,7 @@ import LoginScreen from "./LoginScreen";
 import HomeScreen from "./HomeScreen";
 import Vaksin from "./Vaksin";
 import CovidTest from "./CovidTest";
+import Ehac from "./Ehac";
 
 export {
   
@@ -12,5 +13,6 @@ export {
   HomeScreen,
   Vaksin,
   CovidTest,
+  Ehac,
   
 };

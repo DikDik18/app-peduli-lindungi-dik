@@ -39,6 +39,11 @@ export default Router = () => {
         component={CovidTest}
         options={{ headerShown: true, title:"COVID - 19 Test Result" }}
       />
+      <Stack.Screen
+        name="Ehac"
+        component={Ehac}
+        options={{ headerShown: true, title:"Ehac" }}
+      />
 
     </Stack.Navigator>
   );
