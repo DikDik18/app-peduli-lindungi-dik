@@ -98,7 +98,7 @@ export default HomeScreen = ({ navigation }) => {
         <View style={styles.column}>
           <TouchableOpacity
             onPress={() =>
-              Alert.alert("Peringatan!!!", "Halaman ini Belum Dibuat", [
+              Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
                 {
                   text: "ok",
                   onPress: () => console.log("ok ditekan"),
@@ -113,7 +113,7 @@ export default HomeScreen = ({ navigation }) => {
         <View style={styles.column}>
           <TouchableOpacity
             onPress={() =>
-              Alert.alert("Peringatan!!!", "Halaman ini Belum Dibuat", [
+                Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
                 {
                   text: "ok",
                   onPress: () => console.log("ok ditekan"),
@@ -128,7 +128,7 @@ export default HomeScreen = ({ navigation }) => {
         <View style={styles.column}>
           <TouchableOpacity
             onPress={() =>
-              Alert.alert("Peringatan!!!", "Halaman ini Belum Dibuat", [
+                Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
                 {
                   text: "ok",
                   onPress: () => console.log("ok ditekan"),
@@ -146,7 +146,7 @@ export default HomeScreen = ({ navigation }) => {
         <View style={styles.column}>
           <TouchableOpacity
             onPress={() =>
-              Alert.alert("Peringatan!!!", "Halaman ini Belum Dibuat", [
+                Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
                 {
                   text: "ok",
                   onPress: () => console.log("ok ditekan"),
@@ -161,7 +161,7 @@ export default HomeScreen = ({ navigation }) => {
         <View style={styles.column}>
           <TouchableOpacity
             onPress={() =>
-              Alert.alert("Peringatan!!!", "Halaman ini Belum Dibuat", [
+                Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
                 {
                   text: "ok",
                   onPress: () => console.log("ok ditekan"),
