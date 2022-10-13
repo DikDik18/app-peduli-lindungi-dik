@@ -1,4 +1,4 @@
-import L_peduli from "./img/logo-with-text1.png";
+import L_peduli from "./img/logo-with-text 1.png";
 import kpcpen from "./img/logo_kpcpen.png";
 import kominfo from "./img/logo_kominfo.png";
 import kemenkes from "./img/logo_kemenkes.png";
@@ -12,7 +12,7 @@ import scan from "./img/scan.jpeg";
 import user from "./img/user.jpeg";
 import hand from "./img/ic_hand_qr.jpg";
 import vaksin from "./img/ic_vaccine_and_immuniazation.jpg";
-import covid from "./img/ic_covid_test_result.jpg";
+import L_covid from "./img/ic_covid_test_result.jpg";
 import ehc from "./img/ic_my_ehc.jpg";
 import travel from "./img/ic_travel_regulation.jpg";
 import dokter from "./img/ic_telemedicine.jpg";
@@ -41,7 +41,7 @@ export {
   user,
   hand,
   vaksin,
-  covid,
+  L_covid,
   ehc,
   travel,
   dokter,
