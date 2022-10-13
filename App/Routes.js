@@ -4,6 +4,7 @@ import {
   SplashScreen,
   LoginScreen,
   HomeScreen,
+  Vaksin,
 } 
 from "./Pages";
 
@@ -25,6 +26,11 @@ export default Router = () => {
       <Stack.Screen
         name="HomeScreen"
         component={HomeScreen}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="Vaksin"
+        component={Vaksin}
         options={{ headerShown: false }}
       />
 

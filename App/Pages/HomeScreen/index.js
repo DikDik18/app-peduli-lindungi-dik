@@ -31,154 +31,154 @@ import {
 const windowHeight = Dimensions.get("window").height;
 
 export default HomeScreen = ({ navigation }) => {
-  return (
-    <View style={styles.bgMainApp}>
-      <View style={styles.container}>
-        <Image source={user} style={styles.imgSize} />
-        <Text style={styles.hi}>Hi, </Text>
-        <Text style={styles.nama}>Muhamad Dik Dik Siddik</Text>
-        <Image source={bel} style={styles.imgSize2} />
-      </View>
-
-      <View>
-        <Image source={user} style={styles.imgSize} />
-      </View>
-
-      <View style={styles.kotakBiru}>
+    return (
+      <View style={styles.bgMainApp}>
+        <View style={styles.container}>
+          <Image source={user} style={styles.imgSize} />
+          <Text style={styles.hi}>Hi, </Text>
+          <Text style={styles.nama}>Muhamad Dik Dik Siddik</Text>
+          <Image source={bel} style={styles.imgSize2} />
+        </View>
+  
         <View>
-          <Text style={styles.text1}>Entering A Public Space?</Text>
-          <Text style={styles.text2}>Stay Alert To Stay Safe</Text>
+          <Image source={user} style={styles.imgSize} />
         </View>
-        <View>
-          <Image source={hand} style={styles.logo1} />
-        </View>
-      </View>
-
-      <View style={styles.kotakPutih}>
-        <View style={styles.row}>
-          <Image source={centang} style={styles.panah} />
-          <Text style={styles.fonthitam}>Check-In Prefence</Text>
-        </View>
-        <View style={styles.kotakcheck}>
-          <View style={styles.row}>
-            <Image source={scan} style={styles.scaner} />
-            <Text style={styles.fontbiru}>Check-In </Text>
+  
+        <View style={styles.kotakBiru}>
+          <View>
+            <Text style={styles.text1}>Entering A Public Space?</Text>
+            <Text style={styles.text2}>Stay Alert To Stay Safe</Text>
+          </View>
+          <View>
+            <Image source={hand} style={styles.logo1} />
           </View>
         </View>
-      </View>
-
-      <View
-        style={{ height: 15, backgroundColor: "#D8D8D8", marginTop: -30 }}
-      ></View>
-
-      <View style={styles.row}>
-        <View style={styles.column}>
-          <TouchableOpacity onPress={() => navigation.navigate("Imunisasi")}>
-            <Image source={vaksin} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>Vaccine and Immunization</Text>
+  
+        <View style={styles.kotakPutih}>
+          <View style={styles.row}>
+            <Image source={centang} style={styles.panah} />
+            <Text style={styles.fonthitam}>Check-In Prefence</Text>
+          </View>
+          <View style={styles.kotakcheck}>
+            <View style={styles.row}>
+              <Image source={scan} style={styles.scaner} />
+              <Text style={styles.fontbiru}>Check-In </Text>
+            </View>
+          </View>
         </View>
-        <View style={styles.column}>
-          <TouchableOpacity
-            onPress={() => navigation.navigate("CovidTestScreen")}
-          >
-            <Image source={termo} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>Covid-19 Test Results</Text>
+  
+        <View
+          style={{ height: 15, backgroundColor: "#D8D8D8", marginTop: -30 }}
+        ></View>
+  
+        <View style={styles.row}>
+          <View style={styles.column}>
+            <TouchableOpacity onPress={() => navigation.navigate("Vaksin")}>
+              <Image source={vaksin} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>Vaccine and Immunization</Text>
+          </View>
+          <View style={styles.column}>
+            <TouchableOpacity
+              onPress={() => navigation.navigate("CovidTestScreen")}
+            >
+              <Image source={termo} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>Covid-19 Test Results</Text>
+          </View>
+          <View style={styles.column}>
+            <TouchableOpacity onPress={() => navigation.navigate("Ehac")}>
+              <Image source={eca} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>EHAC</Text>
+          </View>
         </View>
-        <View style={styles.column}>
-          <TouchableOpacity onPress={() => navigation.navigate("Ehac")}>
-            <Image source={eca} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>EHAC</Text>
-        </View>
-      </View>
-
-      <View style={styles.row1}>
-        <View style={styles.column}>
-          <TouchableOpacity
-            onPress={() =>
-              Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
-                {
-                  text: "ok",
-                  onPress: () => console.log("ok ditekan"),
-                },
-              ])
-            }
-          >
-            <Image source={travel} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>Travel Regulations</Text>
-        </View>
-        <View style={styles.column}>
-          <TouchableOpacity
-            onPress={() =>
+  
+        <View style={styles.row1}>
+          <View style={styles.column}>
+            <TouchableOpacity
+              onPress={() =>
                 Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
-                {
-                  text: "ok",
-                  onPress: () => console.log("ok ditekan"),
-                },
-              ])
-            }
-          >
-            <Image source={dokter} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>Telemedicine</Text>
+                  {
+                    text: "ok",
+                    onPress: () => console.log("ok ditekan"),
+                  },
+                ])
+              }
+            >
+              <Image source={travel} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>Travel Regulations</Text>
+          </View>
+          <View style={styles.column}>
+            <TouchableOpacity
+              onPress={() =>
+                  Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
+                  {
+                    text: "ok",
+                    onPress: () => console.log("ok ditekan"),
+                  },
+                ])
+              }
+            >
+              <Image source={dokter} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>Telemedicine</Text>
+          </View>
+          <View style={styles.column}>
+            <TouchableOpacity
+              onPress={() =>
+                  Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
+                  {
+                    text: "ok",
+                    onPress: () => console.log("ok ditekan"),
+                  },
+                ])
+              }
+            >
+              <Image source={fasilitas} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>Healthcare Facility</Text>
+          </View>
         </View>
-        <View style={styles.column}>
-          <TouchableOpacity
-            onPress={() =>
-                Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
-                {
-                  text: "ok",
-                  onPress: () => console.log("ok ditekan"),
-                },
-              ])
-            }
-          >
-            <Image source={fasilitas} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>Healthcare Facility</Text>
+  
+        <View style={styles.row1}>
+          <View style={styles.column}>
+            <TouchableOpacity
+              onPress={() =>
+                  Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
+                  {
+                    text: "ok",
+                    onPress: () => console.log("ok ditekan"),
+                  },
+                ])
+              }
+            >
+              <Image source={statistic} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>Covid-19 Statistic</Text>
+          </View>
+          <View style={styles.column}>
+            <TouchableOpacity
+              onPress={() =>
+                  Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
+                  {
+                    text: "ok",
+                    onPress: () => console.log("ok ditekan"),
+                  },
+                ])
+              }
+            >
+              <Image source={hospital} style={styles.gambar2} />
+            </TouchableOpacity>
+            <Text style={styles.tulisan}>Find Hospital Bed</Text>
+          </View>
+          <View style={styles.column}></View>
         </View>
       </View>
-
-      <View style={styles.row1}>
-        <View style={styles.column}>
-          <TouchableOpacity
-            onPress={() =>
-                Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
-                {
-                  text: "ok",
-                  onPress: () => console.log("ok ditekan"),
-                },
-              ])
-            }
-          >
-            <Image source={statistic} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>Covid-19 Statistic</Text>
-        </View>
-        <View style={styles.column}>
-          <TouchableOpacity
-            onPress={() =>
-                Alert.alert("Info", "Halaman ini Sedang Dalam Proses Pembuatan", [
-                {
-                  text: "ok",
-                  onPress: () => console.log("ok ditekan"),
-                },
-              ])
-            }
-          >
-            <Image source={hospital} style={styles.gambar2} />
-          </TouchableOpacity>
-          <Text style={styles.tulisan}>Find Hospital Bed</Text>
-        </View>
-        <View style={styles.column}></View>
-      </View>
-    </View>
-  );
-};
-
+    );
+  };
+  
 const styles = StyleSheet.create({
   bgMainApp: {
     flex: 1,
